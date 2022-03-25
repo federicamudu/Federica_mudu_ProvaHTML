@@ -1,0 +1,45 @@
+﻿1. Dare una definizione di DNS e spiegarne il funzionamento.
+
+Il dns composto da un database, è il nome dell'indirizzo ip, quindi il sito web. L'acronimo significa Domain Name System
+
+2. Dare una descrizione di cosa sia Internet.
+
+Internet è la piattaforma tecnologica che permette di far funzionare dei servizi, l'infrastruttura. E' un'unica rete virtuale ed è formata da numerosi router. Gli Host, ossia
+i computer che ospitano l'applicazione per cui è necessario utilizzare il computer, sono all'esterno della rete
+
+3. Descrivere come avviene la trasmissione di messaggi in Internet.
+
+La trasmissione dei messaggi avviene tramite i Router, i quali sono degli "instradatori", ossia dirige le informazioni o i dati, tra le reti. Ci sono due tipi:
+- commutazione di circuito, è una connessione tra interlocutori ed è dedicata per tutta la durata della comunicazione, per esempio la chiamata
+- commutazione di pacchetto, non esiste un canale dedicato, il messaggio viene suddivisa in tanti piccoli pacchettie saranno instradati dal router per percorsi diversi, la destinazione sarà sempre la stessa; e una volta arrivati il messaggio viene riassemblato secondo il protocollo 
+
+ogni pacchetto ricevuto da router viene accodato. Se la pila è piena il pacchetto in eccesso deve essere ritrasmesso
+
+Ciò potrebbe comportare una qualità del servizio scarsa: il pacchetto potrebbe impiegarci troppo tempo oppure essere perso
+
+I pacchetti quindi vengono etichettati con la tipologia di trasmissione, il router decide di promuovere dei pacchetti o scartarli tramite un processo chiamato Deep Packet Inspection.
+
+
+4. Spiegare cosa è un protocollo.
+
+Protocollo di comunicazione è un insieme di regole che servono per regolamentare lo scambio dei messaggi, se le entità sono due pc, il messaggio sarà diviso in due:
+-header, una sorta di titolo (es l'oggetto nelle email)
+-dati (es corpo del testo, allegati)
+
+ci sono diverse tipologie di protocolli:
+- la rete basata sul server ha un computer al centro che è molto più potente degli altri (server based network), http 
+- Peer to peer network, nessun pc prevale
+
+5. Spiegare la differenza tra linguaggio di programmazione e linguaggio di markup.
+
+In linguaggio di markup è un sistema per annotare un documento in modo che la logica distinguibile dal testo. 
+Al contrario, un linguaggio di programmazione è un linguaggio che contiene un insieme di comandi, o istruzioni, utilizzate per istruire una macchina di calcolo 
+Inoltre il linguaggio di markup viene interpretato dal browser mentre un linguaggio di programmazione viene compilato da un compilatore o interpretato da un interprete. 
+
+6. Quali sono le tipologie di webStorage? Desciverne le differenze.
+
+Abbiamo due tipologie di webStorage:
+
+- La sessionStorage consente di avere un meccanismo di persistenza dei dati distinto per ogni sessione di navigazione in ogni finestra, o tab, del browser. 
+	Quindi se chiudo la pagina poi la riapro, i dati che c'erano salvati al momento non esistono più
+- Il localStorage mantiene più a lungo i dati in memoria, quindi anche chiudendo e riaprendo la pagina i dati salvati saranno presenti

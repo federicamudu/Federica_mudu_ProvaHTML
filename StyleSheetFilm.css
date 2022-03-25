@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #F2E9E4;
+}
+
+
+img[id=logo] {
+    display: flex;
+    resize: inline;
+    width: 50px;
+    height: 50px;
+}
+h1[id=Titolo] {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+}
+ul[id=menu] {
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    background: #c9ada7;
+    list-style-type: none;
+    display: flex;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: Calibri;
+}
+
+    li a:link {
+        color: #4a4e69;
+    }
+
+    li a:visited {
+        color: #22223b;
+    }
+
+    li a:hover {
+        background-color: #9a8c98;
+    }
+
+h2 {
+    display: block;
+    font-family: 'Book Antiqua';
+    text-align: center;
+}
+
+iframe {
+    text-align:center; 
+    width: 1172px; 
+    height: 659px;
+}
+
+a[id=home] {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 3px 3px;
+}
+#trama {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    #trama p {
+        font-style: italic;
+        text-align: justify;
+    }
+
+    #trama h3 {
+        text-align: center;
+        color: black;
+        font-family:'Book Antiqua';
+    }
+
+#imgscheda {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+img {
+    max-width: 800px;
+    max-height: 400px;
+}
+
